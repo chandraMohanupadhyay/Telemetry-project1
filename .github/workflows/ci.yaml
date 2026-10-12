@@ -91,9 +91,7 @@ jobs:
         name: Build and Push Product Catalog
 
         runs-on: ubuntu-latest
-
-        needs: build
-
+        
         steps:
         - name: checkout code
           uses: actions/checkout@v4
@@ -119,9 +117,7 @@ jobs:
         name: Build and Push frontend
 
         runs-on: ubuntu-latest
-
-        needs: build
-
+         
         steps:
         - name: checkout code
           uses: actions/checkout@v4
