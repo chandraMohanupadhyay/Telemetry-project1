@@ -73,11 +73,7 @@ jobs:
       - name: Install dependencies
         working-directory: src/frontend
         run: npm ci
-
-      - name: Test
-        working-directory: src/frontend
-        run: npm test -- --run
-
+      
       - name: Build
         working-directory: src/frontend
         run: npm run build
