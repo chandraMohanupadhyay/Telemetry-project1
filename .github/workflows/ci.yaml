@@ -1,7 +1,5 @@
 # CI for Product Catalog Service
 
-name: product-catalog-ci
-
 on: 
     pull_request:
         branches:
