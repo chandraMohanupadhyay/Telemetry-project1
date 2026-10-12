@@ -1,7 +1,7 @@
 
 # CI for Product Catalog and Frontend
 
-name: Microservices CI
+name: Microservices CII
 
 on:
   push:
