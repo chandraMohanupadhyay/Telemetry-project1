@@ -78,6 +78,10 @@ jobs:
         working-directory: src/frontend
         run: npm run build
 
+      - name: Generate Protobuf TypeScript
+        working-directory: src/frontend
+        run: npm run grpc:generate
+
       - name: Code quality
         working-directory: src/frontend
         run: npm run lint
